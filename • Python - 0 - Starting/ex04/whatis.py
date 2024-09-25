@@ -1,5 +1,7 @@
 import sys
 
+if len(sys.argv) == 1:
+    sys.exit(1)
 argument = sys.argv[1]
 
 try:
